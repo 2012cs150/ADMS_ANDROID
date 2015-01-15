@@ -1,0 +1,143 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.src.adms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:maxSdkVersion="19" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="viewActivity.Main"
+            android:label="@string/app_name"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="viewActivity.LogIn"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="viewActivity.Registor"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.REGISTOR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="viewActivity.HomePage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="viewActivity.SpecialRegistor"
+            android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="viewActivity.SimpleBrowser"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SIMPLEBROWSER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="viewActivity.Send_deases_Detail"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_DEASES_DETAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="viewActivity.HistoryOfSendDesease"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.HISTORYOFSENDDEASEASE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="viewActivity.ImageTakeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.IMAGETAKEACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="viewActivity.AboutUS"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.ABOUTUS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            
+        </activity>
+        
+        
+        <activity
+            android:name="viewActivity.ContactUS"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.CONTACTUS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+            
+        </activity>
+        
+        
+         <activity
+            android:name="viewActivity.Setting"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.SETTING"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="viewActivity.Help"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.HELP"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

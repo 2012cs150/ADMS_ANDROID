@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"        
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="426dp" >
+    
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText" />
+    
+
+    <Button
+        android:id="@+id/btDiseaseSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/plantdisease"
+        android:gravity="bottom|center"
+        android:paddingBottom="1dp"
+        android:text="Report Disease"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btUpgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btDiseaseSend"
+        android:layout_alignBottom="@+id/btDiseaseSend"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/user_edit_two"
+        android:gravity="bottom|center"
+        android:paddingBottom="1dp"
+        android:text="Upgrade Profile"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btInternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btDiseaseSend"
+        android:layout_alignRight="@+id/btDiseaseSend"
+        android:layout_below="@+id/btDiseaseSend"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/site_one"
+        android:gravity="bottom|center"
+        android:paddingBottom="1dp"
+        android:text="ADMS Site"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btUpgrade"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btInternet"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/history_home"
+        android:gravity="bottom|center"
+        android:paddingBottom="1dp"
+        android:text="Past Entry"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btLogOut"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/logout"
+        android:paddingBottom="1dp"
+        tools:ignore="HardcodedText" />
+    </RelativeLayout>
+    
+    </ScrollView>
+
+</RelativeLayout>

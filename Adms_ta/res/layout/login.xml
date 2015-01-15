@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="UselessParent" >
+        
+         <RelativeLayout 
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content">
+        
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="88dp"
+            android:contentDescription="logo image"
+            android:src="@drawable/logo"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:ignore="RtlHardcoded"
+          />
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:text="gadu; ngau;"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvUsername"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/tvPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUsername"
+            android:layout_centerHorizontal="true"
+            android:text="flTr;nrாy;"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPassword"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btlogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btRegistor"
+            android:layout_alignRight="@+id/btRegistor"
+            android:layout_below="@+id/etPassword"
+            android:layout_marginTop="16dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btRegistor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignRight="@+id/tvUsername"
+            android:layout_below="@+id/btlogIn"
+            android:layout_marginTop="15dp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+        
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

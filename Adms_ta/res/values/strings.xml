@@ -1,0 +1,145 @@
+<resources>
+
+    <string name="user_name">gadu; ngau;</string>
+    <string name="app_name">Adms_ta</string>
+    <string name="subTitle">Register Form</string>
+    <string name="firstname_hint">First Name</string>
+    <string name="title">Agro Diseases Management System</string>
+    <string name="email">kpd;dQ;ry;</string>
+    <string name="email_hint">agro@gmail.com</string>
+    <string name="lastname_hint">Last Name</string>
+    <string name="password">flTr;nrாy;</string>
+    <string name="password_hint">New Password</string>
+    <string name="confirmpassword">cq;fs; flTr;nrாy;iy cWjpg;gLj;Jf</string>
+    <string name="confirmpassword_hint">Confirm Password</string>
+    <string name="category">gadu; tif</string>
+    <string name="general">ngாJthd</string>
+    <string name="special">tpNt\Nkாd</string>
+    <string name="buttonNext">mLj;J</string>
+    <string name="buttonOk">rup</string>
+    <string name="buttonBack">kPz;Lk;</string>
+    <string name="subTitle2">More Information</string>
+    <string name="qualification">Qualification</string>
+    <string name="qualification_hint">Enter Qualification</string>
+    <string name="depRegNo">jpizf;fsk; gjpT vz;</string>
+    <string name="workExperience_hint">Enetr your work Experience </string>
+    <string name="depName">jpizf;fs ngau;</string>
+    <string name="depName_hint">Enter Department Name</string>
+    <string name="contect">njாlu;G vz;</string>
+    <string name="contect_hint">Enter contect No.</string>
+    <string name="depRegNo_hint">Enter Department Reg. No.</string>
+    <string name="buttonCancel">mop</string>
+    <string name="mabout">About Us</string>
+    <string name="mcontacts">Contact Us</string>
+    <string name="mexit">Exit</string>
+    <string name="msetting">Setting</string>
+    <string name="mhelp">Help</string>
+    <string name="fullname">KO ngau;</string>
+    <string name="fullname_hint">Enter Full Name</string>
+    <string name="buttonClear">njspthd</string>
+    <string name="add">Kftup</string>
+    <string name="add_hint">Enter Your Address</string>
+    <string name="take_photo">Gifg;glk; vL</string>
+    <string name="uploaded">Successfully uploaded</string>
+    <string name="plantname">jhtu ngau;</string>
+    <string name="plantname_hint">Enter plant name</string>
+    <string name="diseasetype">Neாa; tif</string>
+
+    <string-array name="diseaseType_array">
+        <item>--select--</item>
+        <item>Other</item>
+        <item>Canker</item>
+        <item>Blight</item>
+        <item>Gall</item>
+        <item>Rusts</item>
+        <item>Smuts</item>
+        <item>Rot</item>
+        <item>Wilts</item>
+    </string-array>
+
+    <string name="weather">thdpiy</string>
+
+    <string-array name="weather_array">
+        <item>--select--</item>
+        <item>Other</item>
+        <item>raning</item>
+        <item>hot</item>
+        <item>humid</item>
+        <item>foggy</item>
+        <item>windy</item>
+        <item>cold</item>
+        <item>sunny</item>
+    </string-array>
+
+    <string name="province">gpuNjrk;</string>
+
+    <string-array name="province_array">
+        <item>--select--</item>
+        <item>Southern</item>
+        <item>Central</item>
+        <item>Northern</item>
+        <item>Western</item>
+        <item>Eastern</item>
+        <item>North Western</item>
+        <item>North Central</item>
+        <item>Uva</item>
+        <item>Sabaragamuwa</item>
+    </string-array>
+
+    <string name="district">khtl;lk;</string>
+
+    <string-array name="district_array">
+        <item>--select--</item>
+        <item>Hambantota</item>
+        <item>Matara</item>
+        <item>Galle</item>
+        <item>Gampaha</item>
+        <item>Ampara</item>
+        <item>Anuradhapura</item>
+        <item>Badulla</item>
+        <item>Batticaloa</item>
+        <item>Colombo</item>
+        <item>Jaffna</item>
+        <item>Kalutara</item>
+        <item>Kandy</item>
+        <item>Kegalle</item>
+        <item>Kilinochchi</item>
+        <item>Mannar</item>
+        <item>Matale</item>
+        <item>Monaragala</item>
+        <item>Mullaitivu</item>
+        <item>Nuwara Elya</item>
+        <item>Polonnaruwa</item>
+        <item>Puttalam</item>
+        <item>Ratnapura</item>
+        <item>Trincomalee</item>
+        <item>Vavunia</item>
+    </string-array>
+    <string-array name="soil_array">
+        <item>--select--</item>
+        <item>Other</item>
+        <item>Gravel</item>
+        <item>Sandy</item>
+        <item>Silt</item>
+        <item>Clayey</item>
+    </string-array>
+
+    <string name="soilCondition">kz;zpd; epiy</string>
+    <string name="region">gpuNjrk;</string>
+    <string name="region_hint">Enter Region</string>
+    <string name="description">G+r;rpfSk; gw;wp gadu; tpsf;fk;</string>
+    <string name="description_hint">Plant desease description</string>
+    <string name="sendDetails">mDg;G</string>
+    <string name="upload">Upload</string>
+    
+    <string name="history">fle;j khjk; Neாa; tptuq;fs; tuyhW Nkk;gLj;j</string>
+    <string name="btn_accept">Vw;Wf;nfாs;</string>
+    <string name="btn_pending">KbTngwhj</string>
+    
+   
+   
+    
+
+    
+
+</resources>

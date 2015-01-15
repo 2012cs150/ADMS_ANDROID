@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>  
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txthistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/history"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="18sp" />
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+ 	    <LinearLayout
+ 	        android:layout_width="match_parent"
+ 	        android:layout_height="224dp"
+ 	        android:orientation="vertical" >
+
+ 	        
+ 	        <LinearLayout 
+ 	            android:layout_width="match_parent"
+ 	            android:layout_height="wrap_content"
+    			android:orientation="horizontal" 
+ 	            >
+ 	        <TextView
+ 	            android:id="@+id/txtAccept"
+ 	            android:layout_width="wrap_content"
+ 	            android:layout_height="wrap_content"
+ 	            android:layout_margin="10dp"
+ 	            android:layout_marginLeft="20dp"
+ 	            android:text="Vw;Wf;nfாs; ..."
+ 	            android:textAppearance="?android:attr/textAppearanceMedium"
+ 	            android:textSize="18sp" />
+ 	        
+ 	        <Button
+ 	            android:id="@+id/btnAccept"
+ 	            android:layout_width="wrap_content"
+ 	            android:layout_height="wrap_content"
+ 	            android:text="Vw;Wf;nfாs;" />
+ 	        
+ 	        </LinearLayout>
+ 	        
+ 	        <Spinner
+ 	            android:id="@+id/listViewAccept"
+ 	            android:layout_width="250dp"
+ 	            android:layout_height="wrap_content"
+ 	            android:layout_marginLeft="35dp" />
+ 	        
+ 	        <LinearLayout 
+ 	            android:layout_width="match_parent"
+ 	            android:layout_height="wrap_content"
+    			android:orientation="horizontal" 
+ 	            >
+ 	        
+ 	        
+    <TextView
+        android:id="@+id/txtPending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KbTngwhj..."
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Button
+ 	            android:id="@+id/btnPendding"
+ 	            android:layout_width="wrap_content"
+ 	            android:layout_height="wrap_content"
+ 	            android:text="KbTngwhj" />
+    
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/listViewPendding"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp" />
+
+    <Button
+        android:id="@+id/btnhBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/buttonBack" />
+     
+     	</LinearLayout>   
+               
+    </ScrollView>
+
+</LinearLayout>
+

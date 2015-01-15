@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ministry of Agriculture:
+							Phone Numbers
+								+94-11-2869553
+							Fax Numbers
+								+94-11-2868910\n\nGovi Sahana Sarana:
+								1920 Agriculture Advisory Service\n\nDirector General of Agriculture
+							Dr. Rohan Wijekoon
+					Contact:+94-812-300484\n\n\nPlant protection services\nTelephone/fax: 0812 388316"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
