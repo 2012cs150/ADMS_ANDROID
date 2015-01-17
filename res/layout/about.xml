@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/abouttextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We are student of ucse , 2 nd year . we build this project as our 2 nd year project. this is a android app of our project.we spend 3 month to build this app. "
+        tools:ignore="HardcodedText" />
+    
+    <ImageView
+	    android:id="@+id/aimageView"
+	    android:layout_width="301dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="88dp"
+	    android:contentDescription="logo image"
+	    android:src="@drawable/ucsc_log"
+	    tools:ignore="HardcodedText" />
+
+</LinearLayout>

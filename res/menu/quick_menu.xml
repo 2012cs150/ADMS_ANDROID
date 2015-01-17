@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:tools="http://schemas.android.com/tools">
+    <item 
+        android:title="@string/mabout"
+        android:id="@+id/aboutUs"
+        android:numericShortcut="1"
+        android:alphabeticShortcut="a"
+        />
+    
+    <item 
+        android:title="@string/mcontacts"
+        android:id="@+id/contactUs"
+        />
+    
+    <item 
+        android:title="@string/msetting"
+        android:id="@+id/setting"
+        />
+    
+    <item 
+        android:title="@string/mhelp"
+        android:id="@+id/help"
+        />
+    
+    <item 
+        android:title="@string/mexit"
+        android:id="@+id/exit"
+        tools:ignore="HardcodedText"
+        />
+
+</menu>
